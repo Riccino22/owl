@@ -8,10 +8,12 @@
     'category': '',
     'depends': ['base', 'web'],
     "data": [
-        "views/owl_view.xml",
+        "views/owl_garment_views.xml",
+        "security/ir.model.access.csv"
     ],'assets': {
             'web.assets_backend': [
-                'owl/static/src/**/*'
+                'owl2/static/src/components/my_widget.js',
+                'owl2/static/src/components/my_widget.xml',
             ],
         },
     'application': True,

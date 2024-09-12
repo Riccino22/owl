@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<templates xml:space="preserve">
+    <t t-name="owl_tips.IntlPhoneField" t-inherit="web.PhoneField" owl="1">
+
+        <xpath expr="." position="inside">
+            <span t-if="getText">Hola</span>
+            <span t-esc="value"/>
+        </xpath>
+    </t>
+</templates>

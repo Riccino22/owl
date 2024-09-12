@@ -17,7 +17,7 @@ export class OwlService extends Component {
     });
     this.state = useState({ partners: [] });
     this.orm = useService("orm");
-    console.log(this.state);
+    console.log("aaa");
   }
   async getOrmService() {
     const data = await this.orm.searchRead("res.partner", [], ["name"]);

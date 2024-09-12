@@ -1,17 +1,18 @@
 # -*- coding: utf-8 -*-
 {
-    'name': 'Owl',
+    'name': 'Weather',
     'version': '17.0.1.0',
-    'summary': """ Owl_partner Summary """,
+    'summary': """ Weather Summary """,
     'author': '',
     'website': '',
     'category': '',
     'depends': ['base', 'web'],
     "data": [
-        "views/owl_view.xml",
+        "views/weather_current_views.xml",
+        "security/ir.model.access.csv"
     ],'assets': {
             'web.assets_backend': [
-                'owl/static/src/**/*'
+                'weather/static/src/**/*'
             ],
         },
     'application': True,
